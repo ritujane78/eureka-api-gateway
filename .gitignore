@@ -8,6 +8,7 @@ target/
 .mvn/wrapper/*
 
 mvnw.*
+mvnw
 
 ### STS ###
 .apt_generated
