@@ -11,7 +11,9 @@ This is a Gateway for safely routing to APIs in EurekaResourceServer microservic
 **Keycloak** authorization server is used to first generate a token from the credentials, then that code is exchanged with
 an access token which can further be used for APIs.
 
-Blockage of http requests through CORS is also handled.
+Blockage of http requests through CORS is also handled, by creating application.yml and setting 
+** spring.cloud.gateway.server.webflux.globalcors.add-to-simple-url-handler-mapping **
+to ** true ** in ** application.properties **.
 
 
 ## Ports
